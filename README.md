@@ -2,6 +2,7 @@
 
 ## ili2gpkg web service
 - startup mit java
+- agent / feature
 - json config files 
 - kompilieren (docker multi stage)
 - start up native
