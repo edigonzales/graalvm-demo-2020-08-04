@@ -20,7 +20,6 @@ XTF / ITF hochladen. Log messages in Terminal zeigen.
 ### GraalVM 
 - JNIReflectionClasses
 - Config-Files
-
 - agent...
 
 
