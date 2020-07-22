@@ -79,3 +79,32 @@ cc -Wall -I. -L. -lili2c getlastmodelname.c -o getlastmodelname
 
 - Kann man damit was machen? Spätere Diskussion?
 - Python-Bindings?
+
+## Polyglot Applications
+
+https://github.com/edigonzales/graalvm-polyglot-examples
+https://github.com/edigonzales/ilivalidator-js
+https://github.com/graalvm/graalvm-demos/tree/master/spring-r
+
+- `java-js-simple`
+- `java-js-file`
+- `java-js-exchange`
+- `java-js-callback`
+- `java-js-python-ruby` (`gu install python && gu instaall ruby`)
+- `ilivalidator-js`
+
+```
+node --jvm --vm.cp ilivalidator-1.11.7-SNAPSHOT-all.jar app.js
+```
+
+
+**There’s a known issue: the libgomp.1.dylib library is not distributed with FastR on MacOS**
+
+- `spring-r`
+
+```
+gu install r
+Rscript -e "install.packages(\"ggplot2\")"
+```
+
+## Benchmark
