@@ -99,8 +99,7 @@ node --jvm --vm.cp ilivalidator-1.11.7-SNAPSHOT-all.jar app.js
 ```
 
 ```
-graalpython --polyglot --jvm
---vm.cp=ilivalidator-1.11.7-SNAPSHOT-all.jar ilivalidator.py
+graalpython --polyglot --jvm --vm.cp=ilivalidator-1.11.7-SNAPSHOT-all.jar ilivalidator.py
 ```
 
 **There’s a known issue: the libgomp.1.dylib library is not distributed with FastR on MacOS**
