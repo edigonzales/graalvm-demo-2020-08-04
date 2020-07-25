@@ -92,11 +92,16 @@ https://github.com/graalvm/graalvm-demos/tree/master/spring-r
 - `java-js-callback`
 - `java-js-python-ruby` (`gu install python && gu instaall ruby`)
 - `ilivalidator-js`
+- `ilivalidator-python` 
 
 ```
 node --jvm --vm.cp ilivalidator-1.11.7-SNAPSHOT-all.jar app.js
 ```
 
+```
+graalpython --polyglot --jvm
+--vm.cp=ilivalidator-1.11.7-SNAPSHOT-all.jar ilivalidator.py
+```
 
 **There’s a known issue: the libgomp.1.dylib library is not distributed with FastR on MacOS**
 
